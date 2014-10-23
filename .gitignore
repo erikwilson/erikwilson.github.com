@@ -1,0 +1,7 @@
+old_covers
+*~
+*.aux
+*.dvi
+*.log
+*.out
+*.ps

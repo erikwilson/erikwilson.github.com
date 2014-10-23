@@ -1,3 +1,4 @@
+// Copyright (c) 2014, Dan Kaplun <dan@beardtree.com>
 
 var fs = require('fs');
 var path = require('path');

@@ -1,0 +1,167 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\setlength{\headheight}{13.6pt}
+\pagestyle{fancy}
+
+\fancypagestyle{plain}{ %
+  \fancyhf{} % remove everything
+  \renewcommand{\headrulewidth}{0pt} % remove lines as well
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\hypersetup{%
+  colorlinks=true,% hyperlinks will be coloured
+  urlcolor=blue,% hyperlink text will be green
+  urlbordercolor=red,% hyperlink border will be red
+}
+
+\begin{document}
+\thispagestyle{empty}
+
+\name{{\Large \normalfont Résumé for }Erik Wilson}
+\email{Erik.E.Wilson@gmail.com}
+\phone{(602) 688-4450}
+\lfoot{\href{mailto:Erik.E.Wilson@gmail.com}{Erik.E.Wilson@gmail.com}}
+\rfoot{(602) 688-4450}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{resume}
+
+  \section{CAREER\\SUMMARY}
+  Software Engineer with 10 years of experience working with teams of varying size, knowledge, and locality.
+  Exposure to a wide variety of languages, architectures, operating systems, libraries, and supporting
+  software, from national supercomputer systems to microprocessors. Specialize in researching and developing
+  solutions for difficult problems in business and scientific software design. Always expanding breadth and
+  depth of knowledge while seeking excellence in engineering.
+
+  \section{SKILLSET\\SUMMARY}
+          {\bf \emph{Languages}:} Bash, C, C++, Java, JavaScript, Python, Perl\\ %PHP, XML
+          %{\bf \emph{Libraries}:} MPI, STL, GSL, HDF4/5, NetCDF \\
+          %{\bf \emph{Protocols}:} HTTP, TCP, UDP, SOAP \\
+          {\bf \emph{Software}:} Linux, Apache, MySQL, PostgreSQL, GNU toolchain \\ %, \LaTeX
+          %{\bf \emph{Operating Systems}:} Linux, AIX, OSX, Windows
+
+  \section{WORK\\EXPERIENCE}
+          {\bf \emph{Software Engineer}, Consultant} \hfill Phoenix, AZ
+
+          {\sl Iced Development} \hfill 2012 - 2014
+          \begin{itemize} \itemsep -2pt
+          \item
+            Software engineering and server administration services for an Advance Deposit Wagering platform taking bets on tracks throughout the USA and Australia. Platform consisted of RedHat Enterprise Linux, Apache, Tomcat, MySQL, MongoDB, Java, JavaScript, and Node.
+          \item
+            Assist in essential implementations for product launch. Integration with partner totalizer and deposit systems. Bottleneck and optimizations analysis and resolution post-launch.
+          \end{itemize}
+
+          {\bf \emph{Software Engineer}, Boston University} \hfill Boston, MA
+
+          {\sl Center for Integrated Space Weather Modeling (CISM)}, Astronomy \hfill 2005 - 2013
+          \begin{itemize} \itemsep -2pt %reduce space between items
+          \item
+            Port various models and scientific packages to other platforms (e.g. LLNL's A++P++, Overture, and PnMPI to AIX and Cray; IBM's OpenDX to OSX).
+          \item
+            Maintain core infrastructure of hardware and software (use of RAID; Linux, Apache, MySQL, PostgreSQL; Perl, Python, BASH scripts; Subversion, Mercurial, Git; OpenLDAP; Make/GNU toolchain; Intel, PGI, IBM, \& GNU compilers; OpenMPI, MPICH2, NetCDF, HDF).
+          \end{itemize}
+
+          {\sl John Lyon (LFM)}, Astronomy \hfill 2008 - 2013
+          \begin{itemize} \itemsep -2pt %reduce space between items
+          \item
+            Performance analysis and optimizations of the Lyon-Fedder-Mobarry (LFM) magnetohydrodynamics model.  Analysis requires performance reviews of the LFM model and associated libraries on various national supercomputer systems, from CPU cache management to MPI communication inefficiencies.
+          \item
+            Developed a C++ I/O library to utilize parallel file systems on supercomputer platforms, allowing unified access to HDF4 or HDF5 through a common API. Optional A++/P++ support allows for data super-domains and automatic array meta-data extraction.
+          \end{itemize}
+
+          {\sl Harlan Spence (LRO/CRaTER)}, Astronomy \hfill 2007 - 2010
+          \begin{itemize} \itemsep -2pt
+          \item
+            Creation of TCP/UDP socketed Perl server used to decompose, calibrate, and redistribute real-time network data from the Cosmic Ray Telescope for the Effects of Radiation (CRaTER) instrument on NASA's Lunar Reconnaissance Orbiter (LRO).
+          \item
+            Refactor of C++ data pipeline used on raw data received from the Mission Operations Center to create calibrated multi-level scientific data sets for scientific analysis and inclusion in NASA's Planetary Data System archive.
+          \end{itemize}
+
+          {\sl Nathan Schwadron (EMMREM)}, Astronomy \hfill 2007 - 2009
+          \begin{itemize} \itemsep -2pt
+          \item
+            Developed a C++ I/O library for the Earth-Moon-Mars Radiation Environment Module (EMMREM), which ingests a text-based start-up configuration and periodically dumps multi-processor snapshots of the model's simulation state, uses MPI and the NetCDF3 API.
+          \end{itemize}
+
+          {\sl David Coker Group}, Chemistry \hfill Summer 2004
+          \begin{itemize} \itemsep -2pt
+          \item
+            Reimplementation of a FORTRAN 77 quantum monte carlo particle simulation to more compact and extensible modular Fortran 90 framework.
+          \end{itemize}
+
+  \section{EDUCATION}
+          {\bf Northern Arizona University} \hfill Flagstaff, AZ\\
+          {\sl Baccalaureate of Science in Computer Science and Engineering} \hfill 2000 - 2004\\
+          {\sl (BSCSE, ABET accredited) with minor in Linguistics}
+
+          ...
+  \section{OTHER\\EXPERIENCE}
+          \emph{Artificial Intelligence}
+          \begin{itemize} \itemsep -2pt
+          \item
+            Participant in 2011 Google Ants AI challenge. Using C++, Python, and JavaScript to test
+            and visualize novel hill climbing algorithms.
+          \item
+            Cognitive and Neural Systems (CNS510) at Boston University,
+            development of a general purpose ordinary differential equations solver using the Runge-Kutta
+            method and creation of a C++ interface to the GNU Scientific Library. Used to solve leaky
+            integrator type neural models.
+          \end{itemize}
+
+          \emph{Android Development}
+          \begin{itemize} \itemsep -2pt
+          \item
+            Development of a data logger service to cache and record high throughput sensor data from phone to sqlite database. Calculation of horsepower graphs from additional weight data and extracted accelerometer and GPS values.
+          \item
+            Box2D and graphics demonstration incorporating phone sensor data.
+          \end{itemize}
+
+          \emph{Last Call for Google I/O 2011}
+          \begin{itemize} \itemsep -2pt
+          \item
+            One of ten winners for the Last Call YouTube programming contest, free ticket to Google I/O conference.
+          \end{itemize}
+
+          \emph{Google App Engine Development}
+          \begin{itemize} \itemsep -2pt
+          \item
+            Developer of Wiki-Hop, a site to explore six degrees of separation style
+            relationships between people on Wikipedia using a custom bidirectional search algorithm.
+          \item
+            Uses several Google APIs: blobstore, map reduce, GWT, charts, adsense.
+          \end{itemize}
+
+          \emph{Electronics}
+          \begin{itemize} \itemsep -2pt
+          \item
+            Design of CactusCon 2014 electronic badge, a USB3 breakout and ethernet tap designed in Eagle; custom ULP for importing
+            vector graphics from InkScape.
+          \item
+            Arduino and similar microprocessor C/C++ development; analysis of sensor input and stepper motor control.
+          \end{itemize}
+
+          %% \emph{Github}
+          %% \begin{itemize} \itemsep -2pt %reduce space between items
+          %% \item
+          %%   Programming samples available at https://github.com/erikwilson.
+          %% \end{itemize}
+
+          \emph{HeatSync Labs}
+          \begin{itemize} \itemsep -2pt %reduce space between items
+          \item
+            Member of HeatSync Labs, a volunteer based maker community in Mesa, AZ.
+          \item
+            Volunteer with community events such as HackPHX and CactusCon.
+          \end{itemize}\
+
+\end{resume}
+\end{document}
