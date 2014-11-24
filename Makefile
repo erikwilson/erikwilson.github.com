@@ -6,3 +6,6 @@ all: $(patsubst %.tex, %.pdf, $(wildcard *.tex))
 
 clean:
 	rm -f *.aux *.dvi *.log *.out *.ps *.pdf
+
+serve:
+	resume serve

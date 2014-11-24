@@ -18,12 +18,25 @@
   },
   "work": [
     {
+      "company": "Octoblu Inc",
+      "position": "Software Engineer, Consultant",
+      "website": "http://www.octoblu.com",
+      "startDate": "2014-11-04",
+      "endDate": "2014-11-30",
+      "summary": "Software engineering for an Internet of Things platform",
+      "highlights": [
+        "Created Bash script system for deploying Debian based development environments on Linux devices.",
+        "Mobile Android development with Java and wearable devices.",
+        "Internet of Things site and data flow development using XBee, MQTT, JavaScript, and Node. Microprocessor and C/C++ based development using Firmata and PubSubClient messaging."
+      ]
+    },
+    {
       "company": "Iced Development",
       "position": "Software Engineer, Consultant",
       "website": "http://www.iceddev.com",
       "startDate": "2012-09-01",
       "endDate": "2014-01-01",
-      "summary": "Software engineering and server administration services for an Advance Deposit Wagering platform",
+      "summary": "Software engineering for an Advance Deposit Wagering platform",
       "highlights": [
         "Software engineering and server administration services for an Advance Deposit Wagering platform taking bets on tracks throughout the USA and Australia. Platform consisted of RedHat Enterprise Linux, Apache, Tomcat, MySQL, MongoDB, Java, JavaScript, and Node",
         "Assist in essential implementations for product launch. Integration with partner totalizer and deposit systems. Bottleneck and optimizations analysis and resolution post-launch."
@@ -35,7 +48,7 @@
       "website": "",
       "startDate": "2005-09-01",
       "endDate": "2013-06-01",
-      "summary": "Center for Integrated Space Weather Modeling (CISM), Astronomy",
+      "summary": "Software engineering at the Center for Integrated Space Weather Modeling (CISM), Astronomy",
       "highlights": [
         "Port various models and scientific packages to other platforms (e.g. LLNL’s A++P++, Overture, and PnMPI to AIX and Cray; IBM’s OpenDX to OSX).",
         "Maintain core infrastructure of hardware and software (use of RAID; Linux, Apache, MySQL, PostgreSQL; Perl, Python, BASH scripts; Subversion, Mercurial, Git; OpenLDAP; Make/GNU toolchain; Intel, PGI, IBM, & GNU compilers; OpenMPI, MPICH2, NetCDF, HDF)."
@@ -47,7 +60,7 @@
       "website": "",
       "startDate": "2005-11-01",
       "endDate": "2013-06-01",
-      "summary": "Performance analysis and optimizations of the Lyon-Fedder-Mobarry (LFM) magnetohydrodynamics model. Analysis requires performance reviews of the LFM model and associated libraries on various national supercomputer systems, from CPU cache management to MPI communication inefficiencies.",
+      "summary": "Performance analysis and optimizations of LFM model, Astronomy",
       "highlights": [
         "Performance analysis and optimizations of the Lyon-Fedder-Mobarry (LFM) magnetohydrodynamics model. Analysis requires performance reviews of the LFM model and associated libraries on various national supercomputer systems, from CPU cache management to MPI communication inefficiencies.",
         "Developed a C++ I/O library to utilize parallel file systems on supercomputer platforms, allowing unified access to HDF4 or HDF5 through a common API. Optional A++/P++ support allows for data super-domains and automatic array meta-data extraction."
@@ -59,7 +72,7 @@
       "website": "",
       "startDate": "2007-06-01",
       "endDate": "2010-06-01",
-      "summary": "",
+      "summary": "Calibrated data pipeline and realtime data distribution for the CRaTER instrument, Astronomy",
       "highlights": [
         "Creation of TCP/UDP socketed Perl server used to decompose, calibrate, and redistribute real-time network data from the Cosmic Ray Telescope for the Effects of Radiation (CRaTER) instrument on NASA’s Lunar Reconnaissance Orbiter (LRO).",
         "Refactor of C++ data pipeline used on raw data received from the Mission Operations Center to create calibrated multi-level scientific data sets for scientific analysis and inclusion in NASA’s Planetary Data System archive."
@@ -71,7 +84,7 @@
       "website": "",
       "startDate": "2007-11-01",
       "endDate": "2009-02-01",
-      "summary": "",
+      "summary": "Multiprocessor I/O of grid data in EMMREM model, Astronomy",
       "highlights": [
         "Developed a C++ I/O library for the Earth-Moon-Mars Radiation Environment Module (EMMREM), which ingests a text-based start-up configuration and periodically dumps multi-processor snapshots of the model’s simulation state, uses MPI and the NetCDF3 API."
       ]
@@ -82,8 +95,10 @@
       "website": "",
       "startDate": "2004-06-01",
       "endDate": "2004-09-01",
-      "summary": "Reimplementation of a FORTRAN 77 quantum monte carlo particle simulation to more compact and extensible modular Fortran 90 framework.",
-      "highlights": []
+      "summary": "Summer internship software model refactor, Chemistry",
+      "highlights": [
+        "Reimplementation of a FORTRAN 77 quantum monte carlo particle simulation to more compact and extensible modular Fortran 90 framework."
+      ]
     }
   ],
   "volunteer": [
