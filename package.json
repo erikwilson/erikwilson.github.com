@@ -4,8 +4,7 @@
   "description": "Resume for Erik Wilson",
   "scripts": {
     "start": "resume serve",
-    "build": "resume export index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "resume test"
   },
   "repository": {
     "type": "git",

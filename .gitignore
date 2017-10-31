@@ -5,3 +5,5 @@ old_covers
 *.log
 *.out
 *.ps
+package-lock.json
+node_modules
