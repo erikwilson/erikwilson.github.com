@@ -2,10 +2,10 @@
   "basics": {
     "name": "Erik Wilson",
     "label": "Software Engineer",
-    "picture": "",
+    "picture": "https://pbs.twimg.com/profile_images/456009183045746688/lRa3dWPb_400x400.png",
     "email": "erik.e.wilson@gmail.com",
     "phone": "602-688-4450",
-    "summary": "Software Engineer with 10 years of experience working with teams of varying size, knowledge, and locality. Exposure to a wide variety of languages, architectures, operating systems, libraries, and supporting software, from national supercomputer systems to microprocessors. Specialize in researching and developing solutions for difficult problems in business and scientific software design. Always expanding breadth and depth of knowledge while seeking excellence in engineering.",
+    "summary": "Software Engineer with many years of experience working with teams of varying size, knowledge, and locality. Exposure to a wide variety of languages, architectures, operating systems, libraries, and supporting software, from national supercomputer systems to microprocessors. Specialize in researching and developing solutions for difficult problems in business and scientific software design. Always expanding breadth and depth of knowledge while seeking excellence in engineering.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -13,21 +13,25 @@
       "countryCode": "US",
       "region": "Arizona"
     },
-    "profiles": [],
+    "profiles": [{
+       "network": "Twitter",
+       "username": "wils0ne",
+       "url": "http://twitter.com/wils0ne"
+     }],
     "download": "Resume_ErikWilson.pdf"
   },
   "work": [
     {
       "company": "Octoblu Inc",
-      "position": "Software Engineer, Consultant",
-      "website": "http://www.octoblu.com",
+      "position": "Software Engineer",
+      "website": "https://octoblu.com/",
       "startDate": "2014-11-04",
-      "endDate": "2014-11-30",
+      "endDate": "2017-11-17",
       "summary": "Software engineering for an Internet of Things platform",
       "highlights": [
-        "Created Bash script system for deploying Debian based development environments on Linux devices.",
-        "Mobile Android development with Java and wearable devices.",
-        "Internet of Things site and data flow development using XBee, MQTT, JavaScript, and Node. Microprocessor and C/C++ based development using Firmata and PubSubClient messaging."
+        "Assisted in architecting and developing an Internet of Things platform.",
+        "Frontend development with Angular and React, backend development using Docker with Javascript (Node.js, CoffeeScript, ES6).",
+        "Integrated a wide variety of devices using various languages and platforms, including: Node.js, Lua, Java, Groovy, and C++."
       ]
     },
     {
@@ -101,6 +105,17 @@
       ]
     }
   ],
+  "education": [
+    {
+      "institution": "Northern Arizona University",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2000-01-01",
+      "endDate": "2004-06-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
   "volunteer": [
     {
       "organization": "HeatSync Labs",
@@ -114,23 +129,24 @@
       ]
     }
   ],
-  "education": [
-    {
-      "institution": "Northern Arizona University",
-      "area": "Computer Science and Engineering",
-      "studyType": "Bachelor",
-      "startDate": "2000-01-01",
-      "endDate": "2004-06-01",
-      "gpa": "",
-      "courses": []
-    }
-  ],
   "awards": [
     {
       "title": "Last Call for Google I/O 2011",
       "date": "2011-03-01",
       "awarder": "Google",
       "summary": "One of ten winners for the Last Call YouTube programming contest, free ticket to Google I/O conference."
+    },
+    {
+      "title": "AT&T Developer Summit",
+      "date": "2015-01-06",
+      "awarder": "AT&T",
+      "summary": "Demo capabilities of Jasper IoT through Meshblu."
+    },
+    {
+      "title": "AstriCon Dangerous Demo Award",
+      "date": "2016-04-04",
+      "awarder": "AstriCon",
+      "summary": "Using Asterix to control an IoT air cannon with Octoblu."
     }
   ],
   "publications": [],

@@ -1,0 +1,31 @@
+{
+  "name": "erikwilson-resume",
+  "version": "1.0.0",
+  "description": "Resume for Erik Wilson",
+  "scripts": {
+    "start": "resume serve",
+    "build": "resume export index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikwilson/erikwilson.github.com.git"
+  },
+  "author": "Erik Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erikwilson/erikwilson.github.com/issues"
+  },
+  "homepage": "https://github.com/erikwilson/erikwilson.github.com#readme",
+  "keywords": [
+    "resume"
+  ],
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "gravatar": "^1.6.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.1",
+    "mustache": "^2.3.0",
+    "path": "^0.12.7"
+  }
+}
