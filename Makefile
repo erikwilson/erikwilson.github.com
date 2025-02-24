@@ -9,3 +9,7 @@ clean:
 
 serve:
 	resume serve
+
+mac-deps:
+	brew install ghostscript
+	brew install texlive
